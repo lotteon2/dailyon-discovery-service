@@ -1,0 +1,13 @@
+server:
+  port: 8761
+spring:
+  config:
+    activate:
+      on-profile: local,dev,prod
+  application:
+    name: discovery-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
