@@ -4,7 +4,7 @@ export ECR_REGISTRY=${ECR_REGISTRY}
 export AWS_ECR_REPOSITORY=${AWS_ECR_REPOSITORY}
 export IMAGE_TAG=${IMAGE_TAG}
 
-deployment_name="discovery-service"
+deployment_name="discovery-deployment"
 service_name="discovery-service"
 namespace="prod"
 
